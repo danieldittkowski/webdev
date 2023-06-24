@@ -1,0 +1,115 @@
+@import url(styles.css);
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    margin: 2em 10em;
+}
+
+main .fehler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2em solid rgba(var(--custom-dark-red), 1);
+    padding: 1em 2em;
+    background-color: rgba(var(--custom-dark-red), 0.2);
+}
+
+main .fehler-ausblenden {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+main #fehler-nachricht:target {
+    display: none;
+}
+
+main .icon-fehlermeldung {
+    height: 3em;
+}
+
+main .heading {
+    align-self: center;
+    font-size: 2em;
+}
+
+main .form-container{
+    margin: 0 0 2em 0;
+}
+
+main .form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em;
+    border: 0.2em solid rgba(var(--custom-light-green), 1);
+}
+
+main .input {
+    width: 100%;
+}
+
+main .titel {
+    font-size: 1.5em;
+}
+
+main .textfeld {
+    font-size: 1.3em;
+    resize: vertical;
+    min-height: 15em;
+    max-height: 25em;
+    overflow-y: scroll;
+}
+
+main .file {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main .upload-title {
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+main .icon {
+    height: 1.1em;
+}
+
+main .image {
+    height: 9em;
+}
+
+main .file-upload {
+    font-size: 1em;
+}
+
+main .button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .button {
+    font-size: 1.1em;
+    flex-basis: 10em;
+    border-radius: 1em;
+}
+
+main .reset {
+    background-color: rgba(var(--custom-light-green), 1);
+    color: #ffffff;
+    border: 0.2em solid rgba(var(--custom-dark-green), 1);
+}
+
+main .submit {
+    background-color: #3f4145;
+    color: #ffffff;
+    border: 0.2em solid rgba(var(--custom-light-green), 1);
+
+}

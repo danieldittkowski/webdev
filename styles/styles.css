@@ -1,0 +1,51 @@
+:root {
+    --custom-light-green: 94, 137, 98;
+    --custom-dark-green: 65, 93, 67;
+    --custom-light-red: 224, 72, 72;
+    --custom-dark-red: 199, 54, 54;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins/Poppins-Regular.ttf") format('truetype'),
+        url("../font/Poppins/Poppins-Regular.woff2") format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.font {
+    font-family: Poppins;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 820px){
+    main .container {
+        margin: 2em 6em;
+    }
+}
+
+@media screen and (max-width: 705px){
+    main .container {
+        margin: 2em 5em;
+    }
+}
+
+@media screen and (max-width: 675px){
+    main .container {
+        margin: 2em 4em;
+    }
+}
+
+@media screen and (max-width: 640px){
+    main .container {
+        margin: 2em 3em;
+    }
+}
+
+

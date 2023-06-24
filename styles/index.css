@@ -1,0 +1,88 @@
+@import url(styles.css);
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 2em 5em;
+}
+
+main .nachricht {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2em solid rgba(var(--custom-light-green), 1);
+    padding: 1em 2em;
+    background-color: rgba(var(--custom-light-green), 0.2);
+}
+
+main .nachricht-icon {
+    height: 3em;
+}
+
+main .nachricht-ausblenden {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+main #nachricht:target {
+    display: none;
+}
+
+main .sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+main .blogs:last-child {
+    margin: 0 0 4em 0;
+}
+
+main .heading {
+    align-self: center;
+    font-size: 2em;
+}
+
+main .kachel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+main .kachel {
+    height: 15em;
+    width: 15em;
+    border: 3px solid rgba(var(--custom-light-green), 1);
+    text-align: center;
+}
+
+main .preview {
+    height: 10em;
+    padding: 1.5em;
+}
+
+main .title {
+    font-size: 1em;
+    padding: 0 2.5em;
+}
+
+main a {
+    color: #000000;
+}
+
+main a:link {
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: none;
+}
+main a:visited {
+    text-decoration: none;
+}
+main a:active {
+    text-decoration: none;
+}

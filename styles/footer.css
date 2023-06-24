@@ -1,0 +1,29 @@
+@import url(styles.css);
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgba(var(--custom-dark-green), 1);
+    padding: 1.5em 5em;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer .icon {
+    height: 2em;
+}
+
+footer .logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .logo {
+    height: 3.5em;
+}

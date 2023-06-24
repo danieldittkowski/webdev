@@ -1,0 +1,105 @@
+@import url(styles.css);
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    margin: 2em 5em;
+}
+
+main .sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+main .smartphone-view {
+    display: none;
+}
+
+main .heading {
+    align-self: center;
+    font-size: 2em;
+}
+
+main .kachel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+main .kachel {
+    height: 15em;
+    width: 15em;
+    border: 3px solid rgba(var(--custom-light-green), 1);
+    text-align: center;
+}
+
+main .preview {
+    height: 10em;
+    padding: 1.5em;
+}
+
+main .title {
+    font-size: 1em;
+    padding: 0 2.5em;
+}
+
+main a {
+    color: #000000;
+}
+
+main a:link {
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: none;
+}
+
+main a:visited {
+    text-decoration: none;
+}
+
+main a:active {
+    text-decoration: none;
+}
+
+main .button a {
+    align-self: center;
+    margin: 0 0 2em 0;
+}
+
+main button {
+    font-size: 1em;
+    height: 4em;
+    width: 15em;
+    color: #ffffff;
+    background-color: rgba(var(--custom-light-green), 1);
+    border: 0.2em solid rgba(var(--custom-dark-green), 1);
+    border-radius: 2em;
+}
+
+main button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 943px) {
+    main .smartphone-view {
+        display: block;
+        align-self: center;
+    }
+
+    main .container {
+        gap: 1.5em;
+    }
+
+    main .blogs {
+        margin: 0 0 4em 0;
+    }
+
+    main .desktop-view {
+        display: none;
+    }
+}

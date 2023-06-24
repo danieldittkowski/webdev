@@ -1,0 +1,75 @@
+@import url(styles.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(var(--custom-light-green), 1);
+    padding: 1em 5em;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+}
+
+header li {
+    list-style: none;
+}
+
+header .font {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+header .logo {
+    height: 6em;
+}
+
+header .icon {
+    height: 1.8em;
+    vertical-align: middle;
+}
+
+header .smartphone-view {
+    display: none;
+}
+
+@media  screen and (max-width: 820px) {
+    header .desktop-view {
+        display: none;
+    }
+
+    header .smartphone-view {
+        display: block;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 1em 0 0.2em 0;
+    }
+
+    header nav {
+        width: 100%;
+        background-color: white;
+    }
+
+    header ul {
+        justify-content: space-evenly;
+    }
+    
+    header li {
+        padding: 0.5em 0;
+    }
+
+    header .logo {
+        height: 6em;
+        padding: 0 0 1em 0;
+    }
+
+    header .icon {
+        height: 2em;
+    }
+}

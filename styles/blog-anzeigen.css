@@ -1,0 +1,88 @@
+@import url(styles.css);
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 2em 5em;
+}
+
+main .sub-container {
+    display: flex;
+    align-items: center;
+}
+
+main .top {
+    justify-content: center;
+}
+
+main .image {
+    height: 20em;
+}
+
+main .mid {
+    justify-content: space-between;
+}
+
+main .heading {
+    font-size: 2em;
+    white-space:normal;
+}
+
+main .nachricht {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2em solid rgba(var(--custom-light-green), 1);
+    padding: 1em 2em;
+    background-color: rgba(var(--custom-light-green), 0.2);
+}
+
+main .nachricht-icon {
+    height: 3em;
+}
+
+main .nachricht-ausblenden {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+main #nachricht:target {
+    display: none;
+}
+
+main .interactions {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+main .icon {
+    height: 2.5em;
+    vertical-align: middle;
+}
+
+main .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-overflow: clip;
+    white-space: normal;
+    overflow: auto;
+    font-size: 1.2em;
+}
+
+main .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main .delete-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
